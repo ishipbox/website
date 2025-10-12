@@ -351,35 +351,66 @@
 				<!-- End banner section -->
 
 				<!-- services-offer 
-					
+					================================================== -->					
+				<style>
+				/* Make all service images same height and responsive */
+				.offer-post img {
+ 					height: 250px;       /* adjust as needed */
+    				width: 100%;
+    				object-fit: cover;   /* crops image to fit container */
+    				display: block;
+					}
+
+				/* Make all cards equal height */
+				.services-offer-section .row {
+    				display: flex;
+    				flex-wrap: wrap;
+					}
+
+				.offer-post {
+    				display: flex;
+    				flex-direction: column;
+    				justify-content: flex-start;
+    				height: 100%;
+    				margin-bottom: 30px;
+					}
+				</style>
+
 				<section class="services-offer-section">
-					<div class="container">
-						<div class="row">
-							<div class="col-sm-4">
-								<div class="offer-post">
-									<a href="services.html"><img src="upload/services/storage.jpg" alt=""></a>
-									<h2><a href="services.html">Storage</a></h2>
-									<p>We offer full packing and unpacking white glove services; Pay for only the packing you need.</p>
-								</div>
-							</div>
-							<div class="col-sm-4">
-								<div class="offer-post">
-									<a href="services.html"><img src="upload/services/packing.jpg" alt=""></a>
-									<h2><a href="services.html">PACKING</a></h2>
-									<p>We offer full packing and unpacking white glove services; Pay for only the packing you need.</p>
-								</div>
-							</div>
-							<div class="col-sm-4">
-								<div class="offer-post">
-									<a href="services.html"><img src="upload/others/con3.jpg" alt=""></a>
-									<h2><a href="services.html">Storage</a></h2>
-									<p>We offer full-service white glove storage options available even at the last minute.</p>
-								</div>
-							</div>
-						</div>
-					</div>
+				    <div class="container">
+				        <div class="row">
+				            <div class="col-sm-4">
+				                <div class="offer-post">
+				                    <a href="services.html">
+				                        <img src="upload/services/packing.jpg" alt="Storage">
+				                    </a>
+				                    <h2><a href="services.html">Step 1: You pack</a></h2>
+				                    <p>We offer full packing and unpacking white glove services; pay only for what you need.</p>
+				                </div>
+				            </div>
+				            <div class="col-sm-4">
+				                <div class="offer-post">
+				                    <a href="services.html">
+				                        <img src="upload/services/pickup.jpg" alt="Packing">
+				                    </a>
+				                    <h2><a href="services.html">Step 2: We pick up</a></h2>
+				                    <p>Professional packing services to ensure your items are protected in transit.</p>
+				                </div>
+				            </div>
+				            <div class="col-sm-4">
+				                <div class="offer-post">
+				                    <a href="services.html">
+				                        <img src="upload/services/deliver.jpg" alt="Last-Minute Storage">
+				                    </a>
+				                    <h2><a href="services.html">Step 3: We deliver</a></h2>
+				                    <p>Full-service white glove storage options available even at the last minute.</p>
+				                </div>
+				            </div>
+				        </div>
+				    </div>
 				</section>
-					================================================== -->
+
+
 				<!-- End services-offer section -->
 
 				<!-- projects 
@@ -397,9 +428,7 @@
 								<div class="about-us-box">
 									<h1>Our Services</h1>
 									<p>
-                        			At iShipBox, we make shipping simple, reliable, and affordable.
-									We focus on secure handling, clear communication, and on-time delivery.
-									From local moves across Canada to express international shipping, your items are always safe and cared for.
+                        			We offer a full range of shipping and moving solutions to fit your needs:
                     				</p>
 									<div class="row">
 										<div class="col-sm-6">
@@ -446,9 +475,9 @@
 									<img src="upload/others/iso1.jpg" alt="">
 									<h2>Who we are</h2>
 									<p>
-                        			iShipBox is a Canada-based shipping and moving company dedicated to delivering fast and reliable services.
-									We treat every shipment with care, ensuring your packages and belongings arrive safely and on time.
-									With an experienced team and a trusted courier network, we make shipping simple, stress-free, and dependable for every customer.
+                        			iShipBox is a Canada-based shipping and moving company built on trust, experience, and customer care.
+									We make every shipment hassle-free, handling your items with attention and reliability.
+									With a professional team and a wide courier network, we ensure your packages arrive safely, on time, and with peace of mind.
                     				</p>
 								</div>
 
